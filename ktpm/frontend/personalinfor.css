@@ -1,0 +1,72 @@
+.navbar-custom {
+    background-color: #F5B;
+    padding: 5px 10px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-details {
+    text-align: left;
+}
+
+.detail-item {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+.btn-edit-profile {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn-btn-primary {
+    background-color: #ff66ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-btn-primary:hover {
+    background-color: #ff6666;
+}
+
+.btn-edit-profile:hover {
+    background-color: #009966;
+}

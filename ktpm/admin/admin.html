@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quản trị hệ thống</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="admin.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+  <div id="loginMessage">Vui lòng đăng nhập!</div>
+  <div id="admin">
+    <h2 class="mb-4">Quản trị hệ thống</h2>
+    <button id="logoutBtn" class="btn btn-danger">Thoát</button>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#user-management">Quản lý người dùng</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#class-management">Quản lý form tạo lớp</a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div id="user-management" class="container tab-pane active"><br>
+        <h3>Quản lý người dùng</h3>
+        <table id="usersTable" class="table table-striped">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Tài khoản</th>
+              <th>Tên</th>
+              <th>Giới tính</th>
+              <th>Vai trò</th>
+              <th>Khu vực</th>
+              <th>Điện thoại</th>
+              <th>Học vấn</th>
+              <th>Hành động</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+      <div id="class-management" class="container tab-pane fade"><br>
+        <h3>Quản lý form tạo lớp</h3>
+        <table id="classFormsTable" class="table table-striped">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Đối tượng</th>
+              <th>Môn học</th>
+              <th>Khối</th>
+              <th>Giới tính</th>
+              <th>Khu vực</th>
+              <th>Điều kiện</th>
+              <th>Hành động</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

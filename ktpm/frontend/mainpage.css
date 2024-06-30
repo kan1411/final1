@@ -1,0 +1,79 @@
+.navbar-custom {
+    background-color: #F5B;
+    padding: 5px 10px; 
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;  
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 5px;
+    color: #DDC488;
+    font-size: 20px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.login {
+    color: #DDC488;
+}
+
+.signup {
+    color: #DDC488;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.container h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container .row {
+    margin-top: 20px;
+}
+
+.container p {
+    font-size: 18px;
+}
+
+.container .btn-primary {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.banner-img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    margin-bottom: 20px;
+}
+
+.p-check {
+    position: relative;
+    padding-left: 30px;
+}
+
+.p-check:before {
+    content: "❤️"; 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #F5B;
+}

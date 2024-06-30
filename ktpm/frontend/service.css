@@ -1,0 +1,40 @@
+.navbar-custom {
+    background-color: #F5B;
+    padding: 5px 10px; 
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;  
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 5px;
+    color: #DDC488;
+    font-size: 20px;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.login {
+    color: #DDC488;
+}
+
+.signup {
+    color: #DDC488;
+}
+p {
+    font-size: 1.2em; 
+}
+ul, ol {
+    font-size: 1.2em;
+}
